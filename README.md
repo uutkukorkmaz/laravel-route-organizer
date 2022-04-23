@@ -4,7 +4,6 @@
 
 ## Introduction
 
------
 This package helps you keep your route files more organized, more convenient and easier to read. Using this package, you
 only need to go to specific route class and make adjustments in the place which is contains only
 relevant routes. No more searching through that messy route files line by line for the only one route you want to
@@ -38,7 +37,6 @@ easier. And also your files going to be shorter than ever!
 
 ## Installation
 
------
 You can install the package via composer:
 
 ```shell
@@ -47,7 +45,6 @@ composer require uutkukorkmaz/laravel-route-organizer
 
 ## Usage
 
------
 
 - ### Basic Usage
 
@@ -75,18 +72,15 @@ php artisan make:route FlightRoutes
 
 ## Changelog
 
------
 Please see [CHANGELOG.md](https://github.com/uutkukorkmaz/laravel-route-organizer/blob/main/CHANGELOG.md) file for more
 information on what are the changes recently.
 
 ## Credits
 
------
 Please see [all contributors](https://github.com/uutkukorkmaz/laravel-route-organizer/graphs/contributors).
 
 ## Licence
 
------
 The MIT Licence (MIT). Please
 see [LICENCE.md](https://github.com/uutkukorkmaz/laravel-route-organizer/blob/main/LICENCE.md) file for more
 information.
