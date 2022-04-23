@@ -1,6 +1,9 @@
 # Laravel Route Organizer
 
-[//]: # (BADGES)
+![Tests](https://github.com/uutkukorkmaz/laravel-route-organizer/actions/workflows/tests.yml/badge.svg)
+![Language](https://img.shields.io/github/languages/top/uutkukorkmaz/laravel-route-organizer)
+![Licence](https://img.shields.io/github/license/uutkukorkmaz/laravel-route-organizer)
+![Release](https://img.shields.io/github/v/release/uutkukorkmaz/laravel-route-organizer?display_name=tag)
 
 ## Introduction
 
@@ -44,7 +47,6 @@ composer require uutkukorkmaz/laravel-route-organizer
 ```
 
 ## Usage
-
 
 - ### Basic Usage
 
