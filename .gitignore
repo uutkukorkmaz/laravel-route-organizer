@@ -1,0 +1,10 @@
+.idea
+*.iml
+out
+gen
+vendor
+composer.lock
+.editorconfig
+.php-cs-fixer.cache
+coverage
+.phpunit.cache

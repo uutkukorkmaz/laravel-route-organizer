@@ -1,0 +1,55 @@
+{
+  "name": "uutkukorkmaz/laravel-route-organizer",
+  "description": "A simple route organizing package for Laravel",
+  "keywords": [
+    "laravel route",
+    "route organizer",
+    "laravel route organizer"
+  ],
+  "support": {
+    "source": "https://github.com/uutkukorkmaz/laravel-route-organizer"
+  },
+  "authors": [
+    {
+      "name": "Utku Korkmaz",
+      "email": "uutkukorkmaz@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "illuminate/console": "^9.9",
+    "illuminate/routing": "^9.9",
+    "illuminate/support": "^9.9",
+    "spatie/laravel-package-tools": "^1.11",
+    "friendsofphp/php-cs-fixer": "^3.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "brianium/paratest": "^6.4",
+    "orchestra/testbench": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Uutkukorkmaz\\RouteOrganizer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Uutkukorkmaz\\RouteOrganizer\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/paratest --no-coverage ./tests",
+    "test-coverage": "./vendor/bin/phpunit --coverage-html coverage ./tests",
+    "format": "./vendor/bin/php-cs-fixer fix --allow-risky=yes --show-progress ./src"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RouteOrganizerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

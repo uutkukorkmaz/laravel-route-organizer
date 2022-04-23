@@ -1,0 +1,38 @@
+commit {
+
+    Introducing {
+        |✨ New Feature -| Feature
+        |🏷 New Version -| Version
+    }
+
+    General {
+        |👶 Create -| Create
+        |🔨 Refactor -| Refactor
+        |🔧 Fix -| Fix
+        |➕ Add -| Add
+        |📝 Update -| Update
+        |🔥 Remove -| Remove
+        |👷 Build -| Build
+        |🚀 Deploy -| Deploy
+        |🔒 Security -| Security
+        |🚧 Work in Progress -| Work in Progress
+        |📦 Dependency -| Dependency
+    }
+
+    Improvement {
+        |🎨 Improving UI -| UI
+        |💨 Improving Performance -| Performance
+    }
+
+    Test {
+        |✔ Make Pass -| Make Pass
+        |🚨 Test -| Test
+    }
+
+}
+
+merge {
+    |🔀 Merge -| Merging Branches
+}
+
+|📚 Documentation -| Documentation
