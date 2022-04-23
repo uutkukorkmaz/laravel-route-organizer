@@ -15,7 +15,7 @@ class MakeRouteClassesTest extends TestCase {
      */
     public function test_it_should_create_a_class_using_artisan() {
         $this->artisan('make:route FlightRoutes')
-            ->expectsOutputToContain('Route created successfully.')
+            ->expectsOutput('Route created successfully.')
             ->assertSuccessful();
     }
 
@@ -28,7 +28,7 @@ class MakeRouteClassesTest extends TestCase {
      */
     public function test_created_route_classes_should_have_correct_directory_structure() {
         $this->artisan('make:route Crew/PilotRoutes')
-            ->expectsOutputToContain('Route created successfully.')
+            ->expectsOutput('Route created successfully.')
             ->assertSuccessful();
 
         $this->assertDirectoryExists(app_path('Routes/Crew'));
