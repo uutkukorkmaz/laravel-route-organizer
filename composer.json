@@ -46,7 +46,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "RouteOrganizerServiceProvider"
+        "Uutkukorkmaz\\RouteOrganizer\\RouteOrganizerServiceProvider"
       ]
     }
   },
