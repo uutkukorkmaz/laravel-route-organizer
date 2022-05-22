@@ -25,7 +25,7 @@ class RouteManager {
     /**
      * @throws EmptyRoutesDictionaryException
      */
-    public function register(array $routeClasses = []) {
+    public function register(array $routeClasses = [], $keepDictionary = false) {
         $this->add($routeClasses);
 
         if (!$this->dictionary) {
@@ -38,6 +38,10 @@ class RouteManager {
              */
             $route::register();
         });
+
+        if (!$keepDictionary) {
+            $this->dictionary = new Collection();
+        }
     }
 
 }
